@@ -1,0 +1,19 @@
+<?php
+return [
+    #试玩
+    "test"=>[
+        "apiUrl"=>'https://demoapi.lc8889.com:189/',
+        "betApiUrl"=>'https://demorecord.lc8889.com/',
+        "agent"=>'61217',
+        "DESKey"=>'325B2301DD5448D0',
+        "MD5Key"=>'F9A02CC20BB952A2',
+    ],
+    #正式
+    "prod"=>[
+        "apiUrl"=>'https://api.lc8889.com:189/',
+        "betApiUrl"=>'https://record.lc8889.com:190/',
+        "agent"=>'90738',
+        "DESKey"=>'0C88DF72782E29F2',
+        "MD5Key"=>'817D513F1B5808F7',
+    ]
+];
