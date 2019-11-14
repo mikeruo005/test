@@ -1,0 +1,19 @@
+<?php
+return [
+    #试玩
+    "test"=>[
+        "apiUrl"=>'http://api.iabc3000.com/app/control_API/agents/api_doaction.php',
+        "AGID"=>'1145',
+        "AGName"=>'test45',
+        "AGPassword"=>'aa1234',
+        "secretKey"=>'dhRLJldPum1ab1kc',
+    ],
+    #正式
+    "prod"=>[
+        "apiUrl"=>'http://api.iabc3000.com/app/control_API/agents/api_doaction.php',
+        "AGID"=>'317',
+        "AGName"=>'HJKJ002',
+        "AGPassword"=>'111qqq',
+        "secretKey"=>'r2xRSg5KGTEnRKJ9',
+    ]
+];
